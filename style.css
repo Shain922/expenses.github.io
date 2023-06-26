@@ -37,3 +37,6 @@ tfoot td {
   border-radius: 4px;
   cursor: pointer;
 }
+.container {
+  margin: auto;
+}
