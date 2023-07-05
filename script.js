@@ -55,6 +55,9 @@ addBtn.addEventListener("click", function (e) {
   amountCell.textContent = expense.amount;
   dateCell.textContent = expense.date;
   deleteCell.appendChild(deleteBtn);
+  categorySelect.value = "";
+  amountInput.value = "";
+  dateInput.value = "";
 });
 
 for (const expense of expenses) {
